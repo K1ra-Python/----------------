@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Junge";
+  src: url(/src/fonts/Junge-Regular.ttf);
+}
+.nav_bar {
+  border-bottom: 2px solid #848484;
+}
+
+.box2, .box1 {
+  border-top: 3px solid #7D7878;
+  border-bottom: 3px solid #7D7878;
+  background: rgba(93, 93, 95, 0);
+}
+
+.box3_text, .bar span {
+  color: #1F1F1F;
+  text-align: center;
+  font-family: Junge;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box3_text span {
+  opacity: 0.9;
+  color: #C70202;
+  font-family: Junge;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box2, .box1 {
+  width: 578px;
+  height: 181px;
+  flex-shrink: 0;
+}
+
+.wrap {
+  opacity: 0.7;
+  background-image: url("/src/Desktop - 1.png");
+  background-repeat: no-repeat;
+  height: 3564px;
+}
+
+.wrap_block_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_bar {
+  background: rgba(217, 217, 217, 0);
+  width: 646px;
+  height: 94px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.bar {
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  align-self: center;
+  padding: 0px 15px 0px 15px;
+}
+#barborder {
+  border-left: #848484 2px solid;
+  border-right: #848484 2px solid;
+}
+
+.logo img {
+  width: 290px;
+  height: 290px;
+}
+
+.block_2 {
+  margin-top: 145px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap_block_2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 887px;
+  height: 207px;
+  margin-left: 18%;
+}
+
+.box1 {
+  position: absolute;
+}
+
+.box2 {
+  position: absolute;
+  margin-top: -29px;
+  margin-left: -609px;
+}
+
+.box3_text {
+  width: 100%;
+  position: absolute;
+  margin: 25px 305px 15px 0px;
+  font-size: 32px;
+}
+.box3_text .stroke2 {
+  margin-left: 15%;
+}
+.box3_text .stroke3 {
+  margin-left: 25%;
+}
+
+.block_3 {
+  margin-top: 132px;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=output.css.map */
