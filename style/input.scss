@@ -1,8 +1,19 @@
+html{
+     scroll-behavior: smooth;
+}
+
 body {
      margin: 0;
      padding: 0;
-
+     
 }
+
+a{
+     text-decoration: none;
+}
+
+
+
 
 @font-face {
      font-family: 'Junge';
@@ -69,6 +80,12 @@ body {
      @extend%duration;
 }
 
+.animate__animated.animate__rotateInDownLeft{
+     --animate-duration: 1.5s;
+}
+.animate__animated.animate__rotateInDownRight{
+     --animate-duration: 1.5s;
+}
 
 
    
@@ -90,6 +107,7 @@ body {
      display: flex;
      justify-content: space-around;
      align-items: center;
+     
 
 }
 
@@ -101,6 +119,7 @@ body {
      flex-shrink: 0;
      @extend%flex_center_items;
      margin-left: 10%;
+
 }
 
 .bar {
@@ -352,6 +371,8 @@ body {
 }
 
 .link_to_you {
+     text-align: center;
+     width: 100%;
      font-size: 48px;
      height: 100px;
      @extend%text_not_regular;
@@ -465,5 +486,135 @@ ul{
      span{
           @extend%text_not_regular;
           font-size: 32px;
+     }
+}
+
+
+
+@media only screen and (max-width : 480px) {
+
+     .wrap_block_1{
+          flex-direction: column
+     }
+     .nav_bar{
+          align-self: center;
+          width: 300px;
+          margin: auto;
+     }
+     .bar {
+          span {
+               font-size: 13pt;
+          }
+     }
+     .box1,.box2{
+          width: 328px;
+     }
+     .box2{
+          margin-top: -15px;
+          margin-left: -209px;
+     }
+     .box3_text{
+          font-size: 15pt;
+          margin:55px 105px 15px 0px;
+          span{
+               font-size: 15pt;
+          }
+     }
+     .wrap_block_3{
+          flex-direction: column;
+     }
+     .who_am_i{
+          div,span,h1{
+               font-size: 15pt;
+          }
+          font-size: 15pt;
+     }
+     .ava{
+          img{
+               visibility: collapse;
+               width: 250px;
+          }
+     }
+     .watashio{
+          padding: 0;
+     }
+     .box_border_bottom{
+          border: none;
+     }
+     .box_border_up{
+          margin: 0px 43px 0px 0px;
+     }
+     .box_border_right{
+          border: none;
+     }
+
+     .block_4{
+          margin-top: 150px;
+     }
+     .wrap_block_4{
+          width: 100%;
+     }
+
+     .myworks{
+          font-size: 16pt;
+          span{
+               font-size: 16pt;
+          }
+     }
+
+     .first_second_third{
+          flex-direction: column;
+          div{
+               font-size: 15pt;
+               span{
+                    font-size: 15pt;
+               }
+          }
+     }
+     .first{
+          margin-left: -55px;
+     }
+     .second{
+          padding-left: 50px;
+     }
+     .third{
+          margin-top: 60px;
+     }
+     .description{
+          width: 190px;
+          height: 107px;
+     }
+     .link_to_you{
+          span{
+               font-size: 20pt;
+          }
+     }
+     .wrap_block_5{
+          width: 100%;
+     }
+
+     .list_box{
+          width: 131px;
+     }
+     .two_of_them{
+          div{
+               font-size: 15pt;
+          }
+     }
+     .footer{
+          div{
+               font-size: 13pt;
+               span{
+                    font-size: 13pt
+               }
+          }
+     }
+     .srcs{
+          line-height: normal;
+     }
+     .message_me{
+          img{
+               width: 40px;
+          }
      }
 }
