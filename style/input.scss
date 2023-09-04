@@ -1,11 +1,12 @@
 html{
      scroll-behavior: smooth;
+     overflow-x: hidden;
 }
 
 body {
      margin: 0;
      padding: 0;
-     
+     overflow-x: hidden;
 }
 
 a{
@@ -94,7 +95,6 @@ a{
 .wrap {
      opacity: 0.8;
      background-image: url("/src/Desktop\ -\ 1.png");
-     background-repeat: no-repeat;
      height: 100%;
      display: flex;
      flex-direction: column;
@@ -395,6 +395,7 @@ a{
      width: 656px;
      flex-shrink: 0;
      border-top: 3px solid #7D7878;
+     margin-bottom: 90px;
 }
 
 
@@ -445,10 +446,10 @@ li{
 ul{
      line-height: 70px;
      padding: 100%;
+   
 }
 
 .footer{
-     margin-top: 130px;
      border-top: 3px solid #7D7878;
      height: 188px;
      align-items: flex-end;
@@ -492,7 +493,9 @@ ul{
 
 
 @media only screen and (max-width : 480px) {
-
+     .body{
+          overflow-x: hidden;
+     }
      .wrap_block_1{
           flex-direction: column
      }
@@ -532,8 +535,10 @@ ul{
      .ava{
           img{
                visibility: collapse;
-               width: 250px;
           }
+     }
+     .avatarka{
+          visibility: collapse;
      }
      .watashio{
           padding: 0;
@@ -542,7 +547,7 @@ ul{
           border: none;
      }
      .box_border_up{
-          margin: 0px 43px 0px 0px;
+          margin: 0px 0px 0px -30px;
      }
      .box_border_right{
           border: none;
