@@ -408,6 +408,9 @@ ul {
   .who_am_i div, .who_am_i span, .who_am_i h1 {
     font-size: 14pt;
   }
+  .titles{
+    padding: 39px 29px 0px 0px;
+  }
   .ava img {
     visibility: collapse;
   }
